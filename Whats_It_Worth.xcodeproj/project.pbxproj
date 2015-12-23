@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC78A3D21C2A2F37001730DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC78A3D11C2A2F37001730DC /* AppDelegate.swift */; };
+		AC78A3D41C2A2F37001730DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC78A3D31C2A2F37001730DC /* ViewController.swift */; };
+		AC78A3D71C2A2F37001730DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC78A3D51C2A2F37001730DC /* Main.storyboard */; };
+		AC78A3D91C2A2F37001730DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC78A3D81C2A2F37001730DC /* Assets.xcassets */; };
+		AC78A3DC1C2A2F37001730DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC78A3DA1C2A2F37001730DC /* LaunchScreen.storyboard */; };
+		AC78A3E41C2A3236001730DC /* chipotlelogo.png in Resources */ = {isa = PBXBuildFile; fileRef = AC78A3E31C2A3236001730DC /* chipotlelogo.png */; };
+		AC78A3E61C2A3240001730DC /* netflix-icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC78A3E51C2A3240001730DC /* netflix-icon.jpg */; };
+		AC78A3E81C2A3243001730DC /* McdonaldsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AC78A3E71C2A3243001730DC /* McdonaldsIcon.png */; };
+		ACED7CEB1C2A4C7A00268C90 /* starbucks.png in Resources */ = {isa = PBXBuildFile; fileRef = ACED7CEA1C2A4C7A00268C90 /* starbucks.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC78A3CE1C2A2F37001730DC /* What's It Worth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What's It Worth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC78A3D11C2A2F37001730DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC78A3D31C2A2F37001730DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC78A3D61C2A2F37001730DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC78A3D81C2A2F37001730DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC78A3DB1C2A2F37001730DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC78A3DD1C2A2F37001730DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC78A3E31C2A3236001730DC /* chipotlelogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chipotlelogo.png; sourceTree = "<group>"; };
+		AC78A3E51C2A3240001730DC /* netflix-icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "netflix-icon.jpg"; sourceTree = "<group>"; };
+		AC78A3E71C2A3243001730DC /* McdonaldsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = McdonaldsIcon.png; sourceTree = "<group>"; };
+		ACED7CEA1C2A4C7A00268C90 /* starbucks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starbucks.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC78A3CB1C2A2F36001730DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC78A3C51C2A2F36001730DC = {
+			isa = PBXGroup;
+			children = (
+				AC78A3D01C2A2F37001730DC /* What's It Worth */,
+				AC78A3CF1C2A2F37001730DC /* Products */,
+				AC78A3E51C2A3240001730DC /* netflix-icon.jpg */,
+				AC78A3E71C2A3243001730DC /* McdonaldsIcon.png */,
+				AC78A3E31C2A3236001730DC /* chipotlelogo.png */,
+				ACED7CEA1C2A4C7A00268C90 /* starbucks.png */,
+			);
+			sourceTree = "<group>";
+		};
+		AC78A3CF1C2A2F37001730DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC78A3CE1C2A2F37001730DC /* What's It Worth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC78A3D01C2A2F37001730DC /* What's It Worth */ = {
+			isa = PBXGroup;
+			children = (
+				AC78A3D11C2A2F37001730DC /* AppDelegate.swift */,
+				AC78A3D31C2A2F37001730DC /* ViewController.swift */,
+				AC78A3D51C2A2F37001730DC /* Main.storyboard */,
+				AC78A3D81C2A2F37001730DC /* Assets.xcassets */,
+				AC78A3DA1C2A2F37001730DC /* LaunchScreen.storyboard */,
+				AC78A3DD1C2A2F37001730DC /* Info.plist */,
+			);
+			path = "What's It Worth";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC78A3CD1C2A2F36001730DC /* What's It Worth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC78A3E01C2A2F37001730DC /* Build configuration list for PBXNativeTarget "What's It Worth" */;
+			buildPhases = (
+				AC78A3CA1C2A2F36001730DC /* Sources */,
+				AC78A3CB1C2A2F36001730DC /* Frameworks */,
+				AC78A3CC1C2A2F36001730DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "What's It Worth";
+			productName = "What's It Worth";
+			productReference = AC78A3CE1C2A2F37001730DC /* What's It Worth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC78A3C61C2A2F36001730DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Silverstein works";
+				TargetAttributes = {
+					AC78A3CD1C2A2F36001730DC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = AC78A3C91C2A2F36001730DC /* Build configuration list for PBXProject "What's It Worth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC78A3C51C2A2F36001730DC;
+			productRefGroup = AC78A3CF1C2A2F37001730DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC78A3CD1C2A2F36001730DC /* What's It Worth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC78A3CC1C2A2F36001730DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC78A3E41C2A3236001730DC /* chipotlelogo.png in Resources */,
+				AC78A3DC1C2A2F37001730DC /* LaunchScreen.storyboard in Resources */,
+				AC78A3E81C2A3243001730DC /* McdonaldsIcon.png in Resources */,
+				AC78A3D91C2A2F37001730DC /* Assets.xcassets in Resources */,
+				AC78A3D71C2A2F37001730DC /* Main.storyboard in Resources */,
+				AC78A3E61C2A3240001730DC /* netflix-icon.jpg in Resources */,
+				ACED7CEB1C2A4C7A00268C90 /* starbucks.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC78A3CA1C2A2F36001730DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC78A3D41C2A2F37001730DC /* ViewController.swift in Sources */,
+				AC78A3D21C2A2F37001730DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC78A3D51C2A2F37001730DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC78A3D61C2A2F37001730DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC78A3DA1C2A2F37001730DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC78A3DB1C2A2F37001730DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC78A3DE1C2A2F37001730DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC78A3DF1C2A2F37001730DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC78A3E11C2A2F37001730DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "What's It Worth/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.silversteinworks.What-s-It-Worth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC78A3E21C2A2F37001730DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "What's It Worth/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.silversteinworks.What-s-It-Worth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC78A3C91C2A2F36001730DC /* Build configuration list for PBXProject "What's It Worth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC78A3DE1C2A2F37001730DC /* Debug */,
+				AC78A3DF1C2A2F37001730DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC78A3E01C2A2F37001730DC /* Build configuration list for PBXNativeTarget "What's It Worth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC78A3E11C2A2F37001730DC /* Debug */,
+				AC78A3E21C2A2F37001730DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC78A3C61C2A2F36001730DC /* Project object */;
+}
